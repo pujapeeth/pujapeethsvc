@@ -5,9 +5,9 @@
 /id_rsa
 
 # config
-# .config/
+.config/
 keys/
-# .env
+.env
 
 # Editor (VS or goland)
 **/ .history/**
