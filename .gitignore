@@ -1,1 +1,33 @@
+# dependencies
 /vendor
+
+# ssh key 
+/id_rsa
+
+# config
+.config/
+keys/
+.env
+
+# Editor (VS or goland)
+**/ .history/**
+**/ .idea/**
+**/.vscode/**
+
+# Logs
+logs/
+
+# Documents
+docs/OpenApiSpecs.html
+docs/OpenApiSpecs.json
+
+# Test & Quality Tools
+.sonar
+.scannerwork
+report.out
+
+cockroach-data
+*.yml
+*.yaml
+
+db/schema.sql
